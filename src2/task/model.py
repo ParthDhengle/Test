@@ -13,4 +13,4 @@ class TaskModel(Base):
     user_id=Column(Integer,ForeignKey("user_table.id",ondelete="CASCADE"))
 
 
-    
+     
